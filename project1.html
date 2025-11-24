@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="work">Work</a>
+            <a href="resume">Resume</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+
+        <h1>Welcome to My Portfolio</h1>
+        <p class="intro-text">I'm a passionate web developer.</p>
+        <button id="btn">About Me</button>
+
+
+    </main>
+
+    <div id="about-section">
+        <h2 id="about">About Me</h2>
+        <div class="line"></div>
+
+        <img src="man.jpeg" id="about-image" alt="">
+        <p class="about">This is the about me section that provides more details about my background, skills, and
+            experiences.
+            I have worked on various projects using HTML, CSS, and JavaScript.
+            I enjoy learning new technologies and improving my skills.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam modi
+            velit ullam cumque provident vitae error architecto quia odio, molestiae
+            sapiente odit veniam harum non reiciendis fuga consequatur quas. Omnis?
+        </p>
+    </div>
+
+
+
+    <div id="work-section" align="center">
+        <h2>My Work</h2>
+        <div class="line"></div>
+
+        <div class="gallery">
+            <img src="e-commerce.png" alt="e-commerce">
+            <div class="title">E-commerce Website</div>
+            <p class="about-text">Developed a full-featured e-commerce website with shopping cart functionality and
+                payment integration.</p>
+
+        </div>
+        <div class="gallery">
+            <img src="fitness.jpg" alt="fitness-app">
+            <div class="title">Fitness App</div>
+            <p class="about-text">Created a fitness app that allows users to track their workouts,
+                set goals, and monitor progress.</p>
+
+        </div>
+        <div class="gallery">
+            <img src="office.jpg" alt="office">
+            <div class="title">Analytical Dashboard</div>
+            <p class="about-text">Developed a full-featured analytical dashboard with real-time data
+                visualization and user-friendly interface.</p>
+
+        </div>
+    </div>
+
+    <h2>Resume</h2>
+    <div class="line"></div>
+    <p class="about-text">Here you can include details about your education, work experience, and skills.
+        Make sure to highlight your key achievements and the technologies you are proficient in.
+    </p>
+
+    <table>
+        <tr >
+
+            <th id="skills">Skills</th>
+            <th id="proficiency">Proficiency</th>
+        </tr>
+        <tr>
+
+            <td class="left-align">HTML/CSS</td>
+            <td class="right-align">Expert</td>
+
+        </tr>
+        <tr>
+
+            <td class="left-align">JavaScript</td>
+            <td class="right-align">Expert</td>
+
+        </tr>
+        <tr>
+
+            <td class="left-align">React</td>
+            <td class="right-align">Advanced</td>
+
+        </tr>
+        <tr>
+
+            <td class="left-align">Node.js</td>
+            <td class="right-align">Intermediate</td>
+
+        </tr>
+        <tr>
+
+            <td class="left-align">UI/UX Design</td>
+            <td class="right-align">Intermediate</td>
+
+        </tr>
+    </table>
+    <h4>Introduction Video</h4>
+
+    <video width="1000" height="600" controls>
+        <source src="intro.mp4" type="video/mp4" aria-placeholder="Introduction Video">
+        Your browser does not support the video tag.
+    </video>
+
+    <h4>Introduction Audio</h4>
+    <audio controls>
+        <source src="intro-audio.mp3" type="audio/mpeg" aria-placeholder="Introduction Audio">
+        Your browser does not support the audio element.
+    </audio> <br>
+
+    <div id="contact-section">
+        <h2>Contact Me</h2>
+        <div class="line"></div>
+        <div class="contact-form">
+        <form action="">
+            <label for="name">Full Name</label> <br>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+                <option value="inquiry">General Inquiry</option>
+                <option value="project">Project Collaboration</option>
+                <option value="opportunity">Job Opportunity</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>LinkedIn   GitHub   Twitter   Instagram</p>
+        <p>Email: yourname@example.com | Phone: +221 78 897 78 09</p>
+
+    </footer>
+</body>
+
+</html>
