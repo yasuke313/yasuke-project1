@@ -125,7 +125,10 @@ h2 {
 .gallery img {
     width: 100%;
     height: auto;
-   
+}
+#fitness {
+    width: 100%;
+    height: 200%;
 }
 .title {
     font-size: 18px;
